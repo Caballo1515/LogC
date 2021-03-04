@@ -2,7 +2,7 @@ public class Main {
 
     public static void main(String[] args) {
 	System.out.println("Chinga tu madre");
-	ConsoleLog c= new ConsoleLog();
+	Log c= new Log();
 	c.e("asdf", "asdf");
 	c.w("asdf", "asdf");
 	c.d("asdf", "asdf");
