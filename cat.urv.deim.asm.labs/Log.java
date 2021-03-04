@@ -8,7 +8,7 @@ public class Log extends ConsoleLog {
         System.out.println(ANSI_RED + tag + " - " + message + ANSI_RESET);
     }
 
-    public void warring(String tag, String message){
+    public void warning(String tag, String message){
         System.out.println(ANSI_YELLOW + tag + " - " + message + ANSI_RESET);
     }
 
